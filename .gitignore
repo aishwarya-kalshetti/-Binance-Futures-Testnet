@@ -28,9 +28,7 @@ share/python-wheels/
 .installed.cfg
 *.egg
 
-# Logs
-logs/*.log
-*.log
+# We intentionally do NOT ignore .log files because the assignment strictly requires you to submit them!
 
 # IDEs and Editors
 .vscode/

@@ -1,0 +1,65 @@
+2026-03-29 19:14:04 | INFO     | orders     | Validating inputs for: BUY 0.01 BTCUSDT @ MARKET (Price=None)
+2026-03-29 19:14:04 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-29 19:14:05 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:14:07 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:14:07 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-29 19:14:07 | ERROR    | client     | Binance API Exception [400]: Timestamp for this request was 1000ms ahead of the server's time.
+2026-03-29 19:14:07 | ERROR    | orders     | Order placement lifecycle failed: Binance API Error: Timestamp for this request was 1000ms ahead of the server's time.
+2026-03-29 19:16:36 | INFO     | orders     | Validating inputs for: BUY 0.01 BTCUSDT @ MARKET (Price=None)
+2026-03-29 19:16:36 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-29 19:16:39 | INFO     | client     | Time offset synced: -26072ms to prevent API rejections.
+2026-03-29 19:16:39 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:16:39 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:16:39 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-29 19:16:40 | INFO     | client     | Order successful! Response: {'orderId': 13006672890, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJf750ad5391c07abc42b8ec', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774791973989}
+2026-03-29 19:22:19 | INFO     | orders     | Validating inputs for: BUY 0.01 BTCUSDT @ LIMIT (Price=60000.0)
+2026-03-29 19:22:19 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.01, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:22:22 | INFO     | client     | Time offset synced: -26193ms to prevent API rejections.
+2026-03-29 19:22:22 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:22:22 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:22:22 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.01, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:22:23 | INFO     | client     | Order successful! Response: {'orderId': 13006684282, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJdd717b18b3054aff10d4d9', 'price': '60000.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774792317065}
+2026-03-29 19:26:38 | INFO     | orders     | Validating inputs for: BUY 0.01 BTCUSDT @ MARKET (Price=None)
+2026-03-29 19:26:38 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-29 19:26:41 | INFO     | client     | Time offset synced: -26071ms to prevent API rejections.
+2026-03-29 19:26:41 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:26:41 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:26:41 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-29 19:26:41 | INFO     | client     | Order successful! Response: {'orderId': 13006692174, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ8a1b153bd47f167ff27f22', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774792575465}
+2026-03-29 19:27:03 | INFO     | orders     | Validating inputs for: BUY 0.05 BTCUSDT @ LIMIT (Price=60000.0)
+2026-03-29 19:27:03 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.05, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:27:07 | INFO     | client     | Time offset synced: -26310ms to prevent API rejections.
+2026-03-29 19:27:07 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:27:07 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:27:07 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.05, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:27:07 | INFO     | client     | Order successful! Response: {'orderId': 13006692636, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJcb702654decfe12092d6fc', 'price': '60000.00', 'avgPrice': '0.00', 'origQty': '0.050', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774792601481}
+2026-03-29 19:27:38 | INFO     | orders     | Validating inputs for: SELL 0.05 BTCUSDT @ LIMIT (Price=60000.0)
+2026-03-29 19:27:38 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.05, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:27:41 | INFO     | client     | Time offset synced: -26086ms to prevent API rejections.
+2026-03-29 19:27:41 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:27:41 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:27:41 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.05, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:27:41 | ERROR    | client     | Binance API Exception [400]: Limit price can't be lower than 63218.80.
+2026-03-29 19:27:41 | ERROR    | orders     | Order placement lifecycle failed: Binance API Error: Limit price can't be lower than 63218.80.
+2026-03-29 19:31:25 | INFO     | orders     | Validating inputs for: BUY 0.01 BTCUSDT @ MARKET (Price=None)
+2026-03-29 19:31:25 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-29 19:31:28 | INFO     | client     | Time offset synced: -26073ms to prevent API rejections.
+2026-03-29 19:31:28 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:31:28 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:31:28 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': 0.01}
+2026-03-29 19:31:29 | INFO     | client     | Order successful! Response: {'orderId': 13006698987, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ7b5b8033a3a24d630ee9ec', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774792863037}
+2026-03-29 19:31:55 | INFO     | orders     | Validating inputs for: BUY 0.05 BTCUSDT @ LIMIT (Price=60000.0)
+2026-03-29 19:31:55 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.05, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:31:57 | INFO     | client     | Time offset synced: -26075ms to prevent API rejections.
+2026-03-29 19:31:57 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:31:58 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:31:58 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'LIMIT', 'quantity': 0.05, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:31:58 | INFO     | client     | Order successful! Response: {'orderId': 13006699591, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ61cd67f14ea837d85fe438', 'price': '60000.00', 'avgPrice': '0.00', 'origQty': '0.050', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774792892569}
+2026-03-29 19:32:14 | INFO     | orders     | Validating inputs for: SELL 0.05 BTCUSDT @ LIMIT (Price=60000.0)
+2026-03-29 19:32:14 | INFO     | orders     | Validation successful. Kwargs built: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.05, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:32:17 | INFO     | client     | Time offset synced: -26312ms to prevent API rejections.
+2026-03-29 19:32:17 | INFO     | client     | Initialized python-binance Testnet Client.
+2026-03-29 19:32:17 | INFO     | client     | Successfully pinged Binance Futures Testnet API.
+2026-03-29 19:32:17 | INFO     | client     | Sending order request payload: {'symbol': 'BTCUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': 0.05, 'price': 60000.0, 'timeInForce': 'GTC'}
+2026-03-29 19:32:17 | ERROR    | client     | Binance API Exception [400]: Limit price can't be lower than 63172.34.
+2026-03-29 19:32:17 | ERROR    | orders     | Order placement lifecycle failed: Binance API Error: Limit price can't be lower than 63172.34.
