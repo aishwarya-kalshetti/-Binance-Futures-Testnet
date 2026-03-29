@@ -2,6 +2,8 @@
 
 A production-ready Python application designed to interact with the [Binance Futures Testnet](https://testnet.binancefuture.com) using the `python-binance` module. It features a highly modular core architecture, a professional Typer CLI, and a dynamic Streamlit UI Dashboard for seamlessly sending limit, market, and stop orders.
 
+> **🎥 Watch the Video Demo**: [Click here to view the full application walkthrough on Google Drive](https://drive.google.com/file/d/1EGlFkgO06nuoU9W57CSDYGEFNpkt-E94/view?usp=sharing)
+
 ## ✨ Project Features & Requirements Met
 
 This project was built adhering to the strict requirements of a senior Python application checkout:
